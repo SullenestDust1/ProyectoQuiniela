@@ -5,11 +5,11 @@
 
 	<groupId>com.lab2</groupId>
 	<artifactId>ProyectoQuiniela</artifactId>
-	<version>1.0.0</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>ProyectoQuiniela</name>
-	<description>proyecto quiniela</description>
+	<description>Proyecto quiniela</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
