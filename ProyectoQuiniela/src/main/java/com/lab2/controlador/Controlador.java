@@ -10,4 +10,10 @@ public class Controlador {
 	public String showIndex() {
 		return "index.html";
 	}
+	
+	@RequestMapping("/pag2")
+	public String showPag2() {
+		return "pag2.html";
+	}
+	
 }
