@@ -7,7 +7,8 @@
 	<groupId>com.lab2</groupId>
 	<artifactId>ProyectoQuiniela</artifactId>
 	<version>1.0</version>
-	<packaging>jar</packaging>
+	<!-- <packaging>jar</packaging> -->
+	<packaging>war</packaging>
 
 	<name>ProyectoQuiniela</name>
 	<description>Proyecto quiniela</description>
@@ -29,6 +30,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>  <!-- Esto para poder ejecutar el war y poder exportarlo -->
 		</dependency>
 
 		<dependency>
