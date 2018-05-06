@@ -74,20 +74,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<plugin>
-				<!-- Build the front end -->
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<configuration>
-					<executable>npm</executable>
-					<arguments>
-						<argument>run</argument>
-						<argument>build</argument>
-					</arguments>
-					<workingDirectory>.</workingDirectory>
-				</configuration>
-			</plugin>
-
 		</plugins>
 	</build>
 
