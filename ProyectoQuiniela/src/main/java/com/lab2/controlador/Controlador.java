@@ -8,12 +8,12 @@ public class Controlador {
 
 	@RequestMapping("/")
 	public String showIndex() {
-		return "index.html";
+		return "index";
 	}
 	
 	@RequestMapping("/pag2")
 	public String showPag2() {
-		return "pag2.html";
+		return "500";
 	}
 	
 }

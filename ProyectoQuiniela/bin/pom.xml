@@ -34,15 +34,10 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId><!-- Esto para poder 
-				ejecutar el war y poder exportarlo -->
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>  <!-- Esto para poder ejecutar el war y poder exportarlo -->
 		</dependency>
 
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
-			<scope>provided</scope>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -73,21 +68,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-
-			<plugin>
-				<!-- Build the front end -->
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<configuration>
-					<executable>npm</executable>
-					<arguments>
-						<argument>run</argument>
-						<argument>build</argument>
-					</arguments>
-					<workingDirectory>.</workingDirectory>
-				</configuration>
-			</plugin>
-
 		</plugins>
 	</build>
 
