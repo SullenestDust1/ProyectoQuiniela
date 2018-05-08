@@ -14,6 +14,10 @@ public class Controlador {
 	public String showLogin() {
 		return "login";
 	}
+	@RequestMapping("/quiniela")
+	public String showQuiniela() {
+		return "quiniela";
+	}
 	@RequestMapping("/pag2")
 	public String showPag2() {
 		return "500";
