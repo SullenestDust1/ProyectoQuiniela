@@ -79,6 +79,9 @@ h5 {
 .navbar-top-links li:last-child {
   margin-right: 40px;
 }
+
+
+
 .body-small .navbar-top-links li:last-child {
   margin-right: 0;
 }
@@ -8560,5 +8563,9 @@ body.md-skin {
     margin: 0;
   }
 }
-
+.icono-deporte
+{
+  max-width: 20%;
+  max-height: 20%;
+}
 

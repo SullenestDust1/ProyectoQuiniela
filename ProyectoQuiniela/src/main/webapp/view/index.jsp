@@ -38,10 +38,8 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text-center m-t-lg">
-							<h1>Welcome in INSPINIA Static SeedProject</h1>
-							<small> It is an application skeleton for a typical web
-								app. You can use it to quickly bootstrap your webapp projects
-								and dev environment for these projects. </small>
+							<h1>Bienvenido a Quiniela Express</h1>
+							<small> Una pagina para jugar a quinielas de distintos deportes </small>
 						</div>
 					</div>
 				</div>
@@ -51,19 +49,6 @@
 						<div class="ibox float-e-margins">
 							<div class="ibox-title">
 								<h5>Quinielas disponibles</h5>
-
-								<div class="ibox-tools">
-									<a class="collapse-link"> <i class="fa fa-chevron-up"></i>
-									</a> <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-										<i class="fa fa-wrench"></i>
-									</a>
-									<ul class="dropdown-menu dropdown-user">
-										<li><a href="#">Config option 1</a></li>
-										<li><a href="#">Config option 2</a></li>
-									</ul>
-									<a class="close-link"> <i class="fa fa-times"></i>
-									</a>
-								</div>
 							</div>
 							<div class="ibox-content">
 								<input type="text" class="form-control input-sm m-b-xs"
@@ -80,6 +65,7 @@
 											<th>Fin de Registros</th>
 											<th data-hide="phone,tablet">Fin de la Quiniela</th>
 											<th>Privada</th>
+											<th>Ingresar</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -87,38 +73,41 @@
 											<td class="center">x</td>
 											<td class="center">002</td>
 											<td class="center">Mundial de Futbol 2018</td>
-											<td class="center">Futbol</td>
+											<td class="center"> <img alt="Bootstrap Image Preview" src="/img/football.png" class="img-responsive icono-deporte"> </td>
 											<td class="center">5/5/2018</td>
 											<td class="center">5/6/2018</td>
 											<td class="center">SI</td>
+											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeC">
 											<td class="center"></td>
 											<td class="center">003</td>
 											<td class="center">Mundial de Futbol 2018</td>
-											<td class="center">Futbol</td>
+											<td class="center"><img alt="Bootstrap Image Preview" src="/img/football.png" class="img-responsive icono-deporte"></td>
 											<td class="center">5/5/2018</td>
 											<td class="center">5/6/2018</td>
 											<td class="center">NO</td>
+											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeA">
 											<td class="center">x</td>
 											<td class="center">015</td>
 											<td class="center">BarcaVsRealMadrid</td>
-											<td class="center">Futbol</td>
+											<td class="center"><img alt="Bootstrap Image Preview" src="/img/football.png" class="img-responsive icono-deporte"></td>
 											<td class="center">10/5/2018</td>
 											<td class="center">15/6/2018</td>
 											<td class="center">NO</td>
+											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeA">
 											<td class="center"></td>
 											<td class="center">008</td>
-
 											<td class="center">YankesVsMets</td>
-											<td class="center">BaseBall</td>
+											<td class="center"><img alt="Bootstrap Image Preview" src="/img/baseball.png" class="img-responsive icono-deporte"></td>
 											<td class="center">25/5/2018</td>
 											<td class="center">26/5/2018</td>
 											<td class="center">NO</td>
+											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 									</tbody>
 									<tfoot>
