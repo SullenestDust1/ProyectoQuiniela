@@ -10,7 +10,10 @@ public class Controlador {
 	public String showIndex() {
 		return "index";
 	}
-	
+	@RequestMapping("/login")
+	public String showLogin() {
+		return "login";
+	}
 	@RequestMapping("/pag2")
 	public String showPag2() {
 		return "500";
