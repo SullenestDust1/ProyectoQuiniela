@@ -116,50 +116,41 @@
 											<td class="center">x</td>
 											<td class="center">002</td>
 											<td class="center">Mundial de Futbol 2018</td>
-											<td class="center"><img alt="Bootstrap Image Preview"
-												src="/ico/football.png" class="img-responsive icono-deporte">
-											</td>
+											<td class="center hide-text"> <img alt="Bootstrap Image Preview" src="/ico/football.png" class="img-responsive icono-deporte"> <div> Football</div> </td>
 											<td class="center">5/5/2018</td>
 											<td class="center">5/6/2018</td>
 											<td class="center">SI</td>
-											<td class="center"><a href="#"><button
-														type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"> <a href="/quiniela" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeC">
 											<td class="center"></td>
 											<td class="center">003</td>
 											<td class="center">Mundial de Futbol 2018</td>
-											<td class="center"><img alt="Bootstrap Image Preview"
-												src="/ico/football.png" class="img-responsive icono-deporte"></td>
+											<td class="center"><img alt="Bootstrap Image Preview" src="/ico/football.png" class="img-responsive icono-deporte"><div> Football</div></td>
 											<td class="center">5/5/2018</td>
 											<td class="center">5/6/2018</td>
 											<td class="center">NO</td>
-											<td class="center"><a href="#"><button
-														type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeA">
 											<td class="center">x</td>
 											<td class="center">015</td>
 											<td class="center">BarcaVsRealMadrid</td>
-											<td class="center"><img alt="Bootstrap Image Preview"
-												src="/ico/football.png" class="img-responsive icono-deporte"></td>
+											<td class="center"><img alt="Bootstrap Image Preview" src="/ico/football.png" class="img-responsive icono-deporte"><div> Football</div></td>
 											<td class="center">10/5/2018</td>
 											<td class="center">15/6/2018</td>
 											<td class="center">NO</td>
-											<td class="center"><a href="#"><button
-														type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeA">
 											<td class="center"></td>
 											<td class="center">008</td>
 											<td class="center">YankesVsMets</td>
-											<td class="center"><img alt="Bootstrap Image Preview"
-												src="/ico/baseball.png" class="img-responsive icono-deporte"></td>
+											<td class="center"><img alt="Bootstrap Image Preview" src="/ico/baseball.png" class="img-responsive icono-deporte"><div> Baseball</div></td>
 											<td class="center">25/5/2018</td>
 											<td class="center">26/5/2018</td>
 											<td class="center">NO</td>
-											<td class="center"><a href="#"><button
-														type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 									</tbody>
 									<tfoot>
