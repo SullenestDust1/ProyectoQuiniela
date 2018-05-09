@@ -35,15 +35,58 @@
 
 			<!--  content ! -->
 			<div class="wrapper wrapper-content animated fadeInRight">
+			
 				<div class="row">
-					<div class="col-lg-12">
-						<div class="text-center m-t-lg">
-							<h1>Bienvenido a Quiniela Express</h1>
-							<small> Una pagina para jugar a quinielas de distintos deportes </small>
+
+					<div class="col-lg-8">
+					
+						<div class="ibox-content">
+
+							<div class="float-e-margins">
+
+
+								<div class="carousel slide" id="carousel2">
+									<ol class="carousel-indicators">
+										<li data-slide-to="0" data-target="#carousel2" class="active"></li>
+										<li data-slide-to="1" data-target="#carousel2"></li>
+										<li data-slide-to="2" data-target="#carousel2" class=""></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="item active">
+											<img alt="image" class="img-responsive" src="https://hdwallsource.com/img/2015/9/sports-wallpaper-47735-49291-hd-wallpapers.jpg">
+											<div class="carousel-caption">
+												<p>This is simple caption 1</p>
+											</div>
+										</div>
+										<div class="item ">
+											<img alt="image" class="img-responsive" src="http://www.gsfdcy.com/data/img/81/2086778-sport-wallpaper.jpg">
+											<div class="carousel-caption">
+												<p>This is simple caption 2</p>
+											</div>
+										</div>
+										<div class="item">
+											<img alt="image" class="img-responsive" src="https://images.alphacoders.com/484/484929.jpg">
+											<div class="carousel-caption">
+												<p>This is simple caption 3</p>
+											</div>
+										</div>
+									</div>
+									<a data-slide="prev" href="#carousel2"
+										class="left carousel-control"> <span class="icon-prev"></span>
+									</a> <a data-slide="next" href="#carousel2"
+										class="right carousel-control"> <span class="icon-next"></span>
+									</a>
+								</div>
+
+							</div>
+
 						</div>
 					</div>
+					<div class="col-lg-4">
+					<a class="twitter-timeline" data-height="500" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				
 				</div>
-
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="ibox float-e-margins">
@@ -73,41 +116,50 @@
 											<td class="center">x</td>
 											<td class="center">002</td>
 											<td class="center">Mundial de Futbol 2018</td>
-											<td class="center"> <img alt="Bootstrap Image Preview" src="/img/football.png" class="img-responsive icono-deporte"> </td>
+											<td class="center"><img alt="Bootstrap Image Preview"
+												src="/ico/football.png" class="img-responsive icono-deporte">
+											</td>
 											<td class="center">5/5/2018</td>
 											<td class="center">5/6/2018</td>
 											<td class="center">SI</td>
-											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"><a href="#"><button
+														type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeC">
 											<td class="center"></td>
 											<td class="center">003</td>
 											<td class="center">Mundial de Futbol 2018</td>
-											<td class="center"><img alt="Bootstrap Image Preview" src="/img/football.png" class="img-responsive icono-deporte"></td>
+											<td class="center"><img alt="Bootstrap Image Preview"
+												src="/ico/football.png" class="img-responsive icono-deporte"></td>
 											<td class="center">5/5/2018</td>
 											<td class="center">5/6/2018</td>
 											<td class="center">NO</td>
-											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"><a href="#"><button
+														type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeA">
 											<td class="center">x</td>
 											<td class="center">015</td>
 											<td class="center">BarcaVsRealMadrid</td>
-											<td class="center"><img alt="Bootstrap Image Preview" src="/img/football.png" class="img-responsive icono-deporte"></td>
+											<td class="center"><img alt="Bootstrap Image Preview"
+												src="/ico/football.png" class="img-responsive icono-deporte"></td>
 											<td class="center">10/5/2018</td>
 											<td class="center">15/6/2018</td>
 											<td class="center">NO</td>
-											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"><a href="#"><button
+														type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 										<tr class="gradeA">
 											<td class="center"></td>
 											<td class="center">008</td>
 											<td class="center">YankesVsMets</td>
-											<td class="center"><img alt="Bootstrap Image Preview" src="/img/baseball.png" class="img-responsive icono-deporte"></td>
+											<td class="center"><img alt="Bootstrap Image Preview"
+												src="/ico/baseball.png" class="img-responsive icono-deporte"></td>
 											<td class="center">25/5/2018</td>
 											<td class="center">26/5/2018</td>
 											<td class="center">NO</td>
-											<td class="center"> <a href="#" ><button type="button" class="btn btn-success">ir</button> </a></td>
+											<td class="center"><a href="#"><button
+														type="button" class="btn btn-success">ir</button> </a></td>
 										</tr>
 									</tbody>
 									<tfoot>
